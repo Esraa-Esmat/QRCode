@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جزارة السعادة</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        .bg-image {
+            width: 100%;
+            max-width: 520px;
+            opacity: 0.2;
+        }
+        .icons {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            gap: 150px;
+        }
+        .icons a {
+            width: 150px;
+            height: 150px;
+        }
+        .icons img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .icons img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./Img/Mesa de trabajo 1 - Copy.png" alt="جزارة السعادة" class="bg-image">
+        <div class="icons">
+            <a href="https://www.facebook.com/share/15MFfdHH59/" target="_blank">
+                <img src="./Img/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://wa.me/message/UXXCDCMRXQMTL1?src=qr" target="_blank">
+                <img src="./Img/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.tiktok.com/@gzart.al.saada?_t=ZS-8tan5xycA7z&_r=1" target="_blank">
+                <img src="./Img/social-media.png" alt="TikTok">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
